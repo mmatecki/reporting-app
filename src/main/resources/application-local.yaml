@@ -1,0 +1,7 @@
+stubrunner:
+  ids: ["me.matecki:warehouse-app"]
+  min-port: 10000
+  max-port: 10000
+
+warehouseService:
+  url: http://localhost:10000
