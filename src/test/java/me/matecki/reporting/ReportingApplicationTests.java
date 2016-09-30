@@ -7,18 +7,14 @@ import me.matecki.reporting.model.ProductQuantity;
 import me.matecki.reporting.service.ReportService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.client.RestTemplateBuilder;
-import org.springframework.cloud.contract.stubrunner.StubFinder;
-import org.springframework.cloud.contract.stubrunner.junit.StubRunnerRule;
 import org.springframework.cloud.contract.stubrunner.spring.AutoConfigureStubRunner;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Predicate;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
