@@ -1,0 +1,2 @@
+warehouseService:
+  url: http://localhost:10000
